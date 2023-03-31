@@ -2,117 +2,31 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+> Hi, this is the page of the game developers from the _rionix_ team. We post some of our stuff here, so feel free to use it!
 
-[Link to another page](./another-page.html).
+&nbsp;
 
-There should be whitespace between paragraphs.
+### 📑 Translation Editor for UE4
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+This is a tool for working with localizations in the Unreal Engine. Its main feature is exporting and importing into Excel format. You can also analyze and modify localizations directly in this tool.
 
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+👉 [Download latest release](https://github.com/rionix/LocalizationUE4/releases/tag/1.7.0) \
+👉 [Source code](https://github.com/rionix/LocalizationUE4)
 
 * * *
 
-### Here is an unordered list:
+### 📦 ShapesVisualizer
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+Plugin for Unreal Engine. Includes component that can draw different shapes: spheres, half spheres, boxes, cylinders, cones, capsules, points and polyline in wireframe and solid mode. It is very convenient for displaying debugging information: target search areas, viewing angles, points of interest and others. You just add the component to the actor, select the shape, set its size, visibility settings and that's it.
 
-### And an ordered list:
+👉 [Marketplace URL](https://www.unrealengine.com/marketplace/en-US/product/379318dddcd6486aa26fc771df8c4b9a) \
+👉 [Source code](https://github.com/rionix/ShapesVisualizer)
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+* * *
 
-### And a nested list:
+### 📦 GameplayTags Component
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+Plugin for Unreal Engine. Includes component that contains Gameplay Tags. Add it to your Actors in which you want to use Gameplay Tags. You can then use the universal functions to manage (adding or removing) Gameplay Tags in Actors or check (one or more) those Tags. Those functions don't care whether the Actors have this Component or not, they work similarly to events for Interfaces.
 
-### Small image
-
-![Octocat](./images/octocat.png)
-
-### Large image
-
-![Branching](./images/branching.png)
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+👉 [Marketplace URL](https://www.unrealengine.com/marketplace/en-US/product/202ef59ca875421da9e508725b94fb30) \
+👉 [Source code](https://github.com/rionix/GameplayTagsComponent)
